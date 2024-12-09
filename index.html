@@ -1,30 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Final Project</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <section id="landing">
-        <nav>
-      <div class="row nav__row"></div>
-      <img src="./Assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
-           <ul class="nav__links">
-            <li><a href="#" class="nav__link">About</a></li>
-            <li><a href="#" class="nav__link">Blog</a></li>
-            <li><a href="#" class="nav__link">Pricing</a></li>
-            <li><a href="#" class="nav__link">Contact Us</a></li>
-            <li><a href="#" class="nav__link login">Login</a></li>
-            <li><a href="#" class="nav__link nav__link__primary">Sign Up</a></li>
-           
-        </ul>
-    </nav>
-            <header>
-            
-            </header>
-       
-    </section>
-</body>
+      <nav>
+        <div class="row nav__row">
+          <div class="nav__logo">
+            <img
+              class="nav__logo--img"
+              src="./Assets125/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+              alt="logo"
+            />
+            <div class="nav__logo--title">Treact</div>
+          </div>
+
+          <div class="nav__links">
+            <a href="#" class="nav__link">About</a>
+            <a href="#" class="nav__link">Blog</a>
+            <a href="#" class="nav__link">Pricing</a>
+            <a href="#" class="nav__link">Contact Us</a>
+            <a href="#" class="nav__link login">Login</a>
+            <a href="#" class="nav__link nav__link__primary">Sign Up</a>
+          </div>
+          <button class="btn__menu" onclick="openMenu()"></button>
+        </div>
+      </nav>
+      <header>
+        <div class="container">
+            <div class="row">
+                <div class="header__description">
+                    <h1>
+                      Beautiful React Templates
+                        <span class="purple">for you.</span>
+                      </h1>
+                        <p class="header__description--para">Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                                     
+                    <div class="header__email">
+                        <input type="text" class="header__email--input" placeholder="Your E-mail Address">
+                        <button class="header__email--btn">Get Started</button>
+                      </div>
+                        <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                    <div>
+                    <img src="./Assets125/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="header__customers">
+                <figure class="header__img--wrapper">
+                    <img src="./Assets125/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt class="header__img">
+                </div>
+                </div>
+                  </figure>
+                </div>
+              </header>
+             </section>
+             <main>
+              <section id="features">
+              <div class="container">
+                <div class="row__narrow">
+                  <h4 class="section__tag">FEATURES</h4>
+                  <h2 class="section__title">We have amazing <span class="purple">Service</span></h2>
+                  <div class="setion__para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, tempore totam. Commodi fuga fugiat perspiciatis illo similique, laborum voluptatem laboriosam quod suscipit natus dolores omnis nulla neque perferendis sit pariatur. Perferendis accusamus inventore a expedita eligendi aliquid doloremque, possimus iste delectus quae dolores autem nisi molestiae architecto tenetur ut. Maxime.
+                    <div class="features">
+                      <div class="feature">
+                        <div class="featrue__row">
+                          <figure class="feature__img--wrapper">
+                            <img src="./Assets125/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="">
+                          </figure>
+                          <div class="feature__text">
+                            <h2 class="feature__title">Secure</h2>
+                            <p class="feature__para">We strictly only deal with vendors that provide top notch security/p>
+                          </div>
+                        </div>
+                      </div>
+<div class="feature">
+  <div class="feature__row">
+    <figure class="feature__img--wrapper"></figure>
+    <img src="./Assets125/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg" alt="">
+  </figure>
+  <div class="feature__text">
+    <h2 class="feature__title">24/7 Support</h2>
+    <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, mollitia.</p>
+  </div>
+  </div>
+</div>
+<div class="feature">
+  <div class="feature__row">
+    <figure class="feature__img--wrapper">
+      <img src="./Assets125/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg" alt="">
+    </figure>
+<div class="feqture__text">
+  <h2 class="feature__title">Customizable</h2>
+  <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, ut.</p>
+</div>
+  </div>
+</div>
+<div class="feature">
+  <div class="feature__row">
+    <figure class="feature__img--wrapper">
+      <img src="./Assets125/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg" alt="">
+    </figure>
+    <div class="feature__text">
+      <h2 class="feature__title">Reliable</h2>
+      <p class="feature__para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, nostrum.</p>
+    </div>
+  </div>
+</div>
+<div class="feature">
+  <div class="feature__row">
+    <figure class="feature__img--wrapper">
+      <img src="./Assets125/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg" alt="">
+    </figure>
+    <div class="feature__text">
+      <h2 class="feature__title">Fast</h2>
+      <p class="feature__para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, et.</p>
+    </div>
+  </div>
+</div>
+<div class="feature">
+  <div class="feature__row">
+    <figure class="feature__img--wrapper">
+      <img src="./Assets125/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg" alt="">
+    </figure>
+    <div class="feature__text">
+      <h2 class="feature__title">Easy</h2>
+      <p class="feature__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aut.</p>
+    </div>
+  </div>
+</div>
+                    </div>
+                  </div>
+                </div> 
+               </div>
+                </section>
+              <section id="quality">
+              <div class="container">
+                <div class="row">
+              <div class="quality__description"></div>
+              <figure class="quality__img--wrapper"></figure>
+              </div>
+              </div>
+            </section>
+            </main>
+           </body>
 </html>
