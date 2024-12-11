@@ -430,7 +430,7 @@ section {
     }
 
     h4 {
-        display: block
+        display: block;
         margin-block-start: 1.33em;
         margin-block-end: 1.33em;
         margin-inline-start: 0px;
@@ -452,7 +452,7 @@ section {
 
     .row__narrow {
         width: 100%;
-        max-width: 50px;
+        max-width: 1280px;
         margin: 0 auto;
     }
 
