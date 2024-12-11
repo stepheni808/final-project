@@ -253,12 +253,12 @@ div {
 }
 
 @media (max-width: 1280px) {
-    header.row {
+    header .row {
         align-items: flex-end;
     }
 }
 
-header.row {
+header .row {
     display: flex;
     justify-content: space-between;
 }
@@ -279,8 +279,33 @@ div {
     unicode-bidi: isolate;
 }
 
-header__description {
+.header__description {
     width: 41.66%;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1 {
+    color: #1a202c;
+}
+
+h1 {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.purple {
+    color: #6415ff;
 }
 
 @media (max-width: 1280px){
